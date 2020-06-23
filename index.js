@@ -3,6 +3,7 @@ let numberOfDrumButtons = document.querySelectorAll(".drum").length;
 // loop through each button and target inner hmtl to activate method
 for (let i = 0; i < numberOfDrumButtons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+    // Detects button pressed 
     let buttonInnerHTML = this.innerHTML;
     makeSound(buttonInnerHTML);
     buttonAnimation(buttonInnerHTML);
@@ -11,12 +12,13 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
 }
 
 // enable keypress on keyboards
-document.addEventListener("keydown", (event) => {
-  makeSound(event.key);
-  buttonAnimation(event.key);
+document.addEventListener("keydown", (e) => {
+  makeSound(e.key);
+  buttonAnimation(e.key);
 });
 
-// function to enable sound when button is clicked / keydown
+// function to enable sound when button is clicked / key is pressed 
+// Detects keyboard press
 makeSound= (key) => {
   switch (key) {
     case "w":
