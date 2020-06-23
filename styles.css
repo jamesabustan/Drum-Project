@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-color: #778beb;
+    text-transform: uppercase
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #f7d794;
+    font-family: 'Mitr', sans-serif;
+    text-shadow: 5px 2px #786fa6;
+  }
+
+  
+  footer {
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .w {
+    background-image: url("images/901572-200.png");
+  }
+  
+  .a {
+    background-image: url("images/901572-200.png");
+  }
+  
+  .s {
+    background-image: url("images/901572-200.png");
+  }
+  
+  .d {
+    background-image: url("images/901572-200.png");
+  }
+  
+  .j {
+    background-image: url("images/snare1.png");
+  }
+  
+  .k {
+    background-image: url("images/crash1.png");
+  }
+  
+  .l {
+    background-image: url("images/kick1.png");
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 6px solid #f19066;
+    font-size: 5rem;
+    font-family: 'Mitr', sans-serif;
+    line-height: 2;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-shadow: 3px 4px #786fa6;
+    margin: 10px;
+    background-color: #f7d794;
+  }
